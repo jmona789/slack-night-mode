@@ -2051,7 +2051,7 @@
   a.p-download_item__link--show {
       background: #222;
   }
-  element.style {
+  .p-download_item__action_icon {
       box-shadow: 0 0 0 3px #222;
   }
 
