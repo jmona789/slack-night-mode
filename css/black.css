@@ -2033,3 +2033,25 @@
   .para_menu .options a span { filter: grayscale(2) brightness(5); }
   .para_menu a.trigger.pilcrow { filter: grayscale(2) brightness(1.8); }
   .para_menu a.trigger.pilcrow:hover, .para_menu a.trigger.pilcrow.active { filter: grayscale(2) brightness(2); } }
+  .c-file_container--has_thumb .c-file__actions:before{
+    background: #000000;
+  }
+  .c-file__slide--meta {
+    background: #000;
+  }
+  .c-file__icon--view:after {
+      filter: invert(100%) hue-rotate(180deg);
+  }
+  .p-downloads_list__shift_hint {
+      background: #222;
+  }
+  span.p-download_item__name.overflow_ellipsis {
+      color: #eee;
+  }
+  a.p-download_item__link--show {
+      background: #222;
+  }
+  element.style {
+      box-shadow: 0 0 0 3px #222;
+  }
+
