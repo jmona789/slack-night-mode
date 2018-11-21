@@ -2034,7 +2034,7 @@
   .para_menu a.trigger.pilcrow { filter: grayscale(2) brightness(1.8); }
   .para_menu a.trigger.pilcrow:hover, .para_menu a.trigger.pilcrow.active { filter: grayscale(2) brightness(2); } }
   .c-file_container--has_thumb .c-file__actions:before{
-    background: #000000;
+    background-image: linear-gradient(90deg,#000,#000 20px) !important;
   }
   .c-file__slide--meta {
     background: #000 !important;
