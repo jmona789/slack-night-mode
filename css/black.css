@@ -2037,7 +2037,7 @@
     background: #000000;
   }
   .c-file__slide--meta {
-    background: #000;
+    background: #000 !important;
   }
   .c-file__icon--view:after {
       filter: invert(100%) hue-rotate(180deg);
@@ -2052,6 +2052,8 @@
       background: #222;
   }
   .p-download_item__action_icon {
-      box-shadow: 0 0 0 3px #222;
+      box-shadow: 0 0 0 3px #222 !important;
   }
-
+  .c-icon--times-circle:before {
+      color: #fff;
+  }
