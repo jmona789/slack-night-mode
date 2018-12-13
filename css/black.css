@@ -2065,3 +2065,6 @@
       background-color: #222;
       color: #e6e6e6;
   }
+  .c-dialog__close:hover {
+      color: #e6e6e6;
+  }
