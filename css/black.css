@@ -2061,3 +2061,7 @@
   #team_tab #member_preview_scroller .feature_custom_status_expiry.member_details .member_name {
       color: #c1c1c1;
   }
+  .ReactModal__Content.ReactModal__Content--after-open.c-dialog__content.p-file_upload_dialog, .ReactModal__Content.ReactModal__Content--after-open.c-dialog__content.p-file_upload_dialog div, .ReactModal__Content.ReactModal__Content--after-open.c-dialog__content.p-file_upload_dialog div h3 {
+      background-color: #222;
+      color: #e6e6e6;
+  }
