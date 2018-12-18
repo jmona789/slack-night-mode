@@ -2068,3 +2068,9 @@
   .c-dialog__close:hover {
       color: #e6e6e6;
   }
+  .c-file_container--has_thumb .c-file__actions:before {
+      background-image: none;
+  }
+  .c-file__actions {
+      background: transparent;
+  }
