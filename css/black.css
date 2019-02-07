@@ -2074,6 +2074,7 @@
   .c-file__actions {
       background: transparent;
   }
-  span.c-message_kit__text {
+  /* threads */
+  span.c-message_kit__text, span.c-label__text, span.c-channel_name.p-threads_flexpane__header_channel_name {
     color: #e6e6e6;
   }
