@@ -2074,3 +2074,6 @@
   .c-file__actions {
       background: transparent;
   }
+  span.c-message_kit__text {
+    color: #e6e6e6;
+  }
