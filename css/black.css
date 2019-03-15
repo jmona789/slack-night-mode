@@ -2084,3 +2084,6 @@
   i.c-deprecated-icon.filetype_icon.gzip.s48.download_icon.download_filetype, i.c-deprecated-icon.filetype_icon.shell.s48.download_icon.download_filetype {
     color: #e6e6e6;
   }
+  .c-message_list .c-scrollbar__bar {
+    background: #7bc80e;
+  }
