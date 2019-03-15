@@ -2078,3 +2078,6 @@
   span.c-message_kit__text, span.c-label__text, span.c-channel_name.p-threads_flexpane__header_channel_name {
     color: #e6e6e6;
   }
+  .c-pillow_file__content--collapsed:after {
+    background: linear-gradient(0deg,#000,hsla(0,0%,100%,0) 40px);
+  }
