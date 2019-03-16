@@ -2085,5 +2085,5 @@
     color: #e6e6e6;
   }
   .c-message_list .c-scrollbar__bar {
-    background: #7bc80e;
+    background: linear-gradient(#7bc80e, #487509);
   }
