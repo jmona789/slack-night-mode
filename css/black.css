@@ -2088,3 +2088,7 @@
   .c-message_list .c-scrollbar__bar, .p-channel_sidebar .c-scrollbar__bar, .c-scrollbar__bar {
     background: linear-gradient(#487509, #7bc80e) !important;
   }
+  /*Custom OBD Colored reaction bubbles */
+  button.c-button-unstyled.c-reaction {
+    background: linear-gradient(to left, #325008, #8ade12) !important;
+  }
