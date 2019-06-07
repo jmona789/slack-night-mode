@@ -2092,3 +2092,13 @@
   button.c-button-unstyled.c-reaction {
     background: linear-gradient(to left, #325008, #8ade12) !important;
   }
+  button.c-button-unstyled.c-message__editor__emoji_menu {
+    background: #545454;
+  }
+  .ql-editor {
+    background-color: #545454;
+    color: #fff;
+  }
+  i.c-deprecated-icon.c-message__editor__emoji_smile_icon.c-icon--smile-o {
+    color: #949494;
+  }
