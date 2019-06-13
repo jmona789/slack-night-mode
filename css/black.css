@@ -2102,3 +2102,6 @@
   i.c-deprecated-icon.c-message__editor__emoji_smile_icon.c-icon--smile-o {
     color: #e6e6e6;
   }
+  span.p-download_item__actions {
+    background-color: #222222;
+  }
