@@ -2105,3 +2105,6 @@
   span.p-download_item__actions {
     background-color: #222222;
   }
+  button.c-link--button.p-download_item__link--show:hover {
+    color: #eee;
+  }
