@@ -2108,3 +2108,6 @@
   button.c-link--button.p-download_item__link--show:hover {
     color: #eee;
   }
+  i.c-icon.c-icon--times {
+    color: #e6e6e6;
+  }
