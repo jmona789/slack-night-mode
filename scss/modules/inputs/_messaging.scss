@@ -137,6 +137,21 @@
   }
 }
 
+#footer_archives_preview {
+  background-color: $color-base;
+  border-top: 1px solid $color-shade-dark;
+
+  .c-archive_footer {
+    &__metadata {
+      color: $base-link-color;
+    }
+
+    &__title {
+      color: $base-link-color-active;
+    }
+  }
+}
+
 #footer_archives_table {
   color: $color-highlight;
 }
@@ -168,7 +183,7 @@
 
 .inline_message_input_container .ql-container {
   border-color: $color-shade-light;
-
+  color: $base-font-color;
   &.focus,
   &:active,
   &:hover {
@@ -184,7 +199,8 @@
   }
 
   &__editor {
-    &__input {
+    &__input,
+    &__input--legacy {
       background: $color-shade-light;
       border-color: $color-shade-dark;
       color: $base-font-color;
@@ -197,6 +213,24 @@
 
     &__warning {
       color: $color-red;
+    }
+  }
+
+  .c-button {
+    border-color: $color-shade-mid;
+
+    &--outline {
+      background-color: $color-shade-dark;
+      color: $base-link-color;
+
+      &:hover {
+        color: $base-link-color-active;
+      }
+    }
+
+    &--primary {
+      background-color: $color-shade-light;
+      color: $base-font-color;
     }
   }
 }

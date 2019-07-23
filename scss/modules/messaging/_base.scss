@@ -14,7 +14,8 @@
 .c-mrkdwn__subteam--mention,
 .c-mrkdwn__subteam--mention:hover,
 .mention_yellow_bg {
-  color: $color-highlight !important;
+  background-color: $color-yellow;
+  color: $color-shade-dark;
 }
 
 .c-message {
@@ -232,6 +233,16 @@
   &__call_sub {
     color: $color-highlight;
   }
+
+  &_attachment {
+    &__author_name,
+    &__author_name.clink--button,
+    &__author_name.clink--button:active,
+    &__author_name.clink--button:focus,
+    &__author_name.clink--button:hover {
+      color: $base-font-color;
+    }
+  }
 }
 
 .c-message_actions {
@@ -277,16 +288,22 @@
   }
 }
 
+.c-app_badge {
+  background: $color-shade-light;
+  box-shadow: 0 0 2px $color-shadow-medium;
+  color: $color-highlight;
+}
+
 .c-message_list {
   &__unread_divider {
     &__separator {
-      border-color: $color-shade-light;
+      border-color: $color-highlight;
     }
 
     &__label {
-      background: $color-base;
+      background: $color-shade-light;
       box-shadow: 0 0 2px $color-shadow-medium;
-      color: $color-shade-light;
+      color: $color-highlight;
     }
   }
 

@@ -1,0 +1,53 @@
+.p-download_item {
+  padding: 12px 12px 4px 16px;
+  margin: 0;
+
+  &__container &__name_row {
+    color: $base-font-color;
+  }
+  
+
+  &__actions {
+    background: $color-base;
+  }
+
+  &__link--open,
+  &__link--retry,
+  &__link--show {
+    color: $base-font-color;
+  }
+}
+
+.p-downloads_list {
+  &__shift_hint {
+    background: linear-gradient(180deg, $color-shadow-transparent, $color-shade-dark 25%, $color-shade-dark);
+    color: $base-font-color;
+  }
+}
+
+.p-flexpane {
+  &_header {
+    background-color: $color-shade-dark;
+    border-bottom-color: $color-shade-mid;
+
+    &__control,
+    &__control .c-icon {
+      color: $base-font-color;
+
+      &:hover {
+        color: $base-link-color-active;
+      }
+    }
+  }
+
+  &__body {
+    .p-thread_drag_overlay {
+      background-color: $color-shade-dark;
+
+      &__subtitle,
+      &__title {
+        color: $base-font-color;
+      }
+    }
+  }
+}
