@@ -2111,3 +2111,15 @@
   i.c-icon.c-icon--times {
     color: #e6e6e6;
   }
+
+
+  /*QUICK FIX FOR NEW SLACK, update more later:*/
+.c-message {
+    background: #363636;
+}
+span.c-message__body {
+    color: #e6e6e6;
+}
+.c-message_list__day_divider {
+    background: #363636;
+}
