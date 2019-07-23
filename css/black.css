@@ -2146,3 +2146,13 @@ button.c-button-unstyled.p-classic_nav__model__button,
 .p-classic_nav__right__search__icon {
     color: #e6e6e6;
 }
+.p-workspace__input .p-message_input_field.focus, .p-workspace__input .p-message_input_field {
+     background: #545454;
+}
+button.c-button-unstyled.p-message_input_file_button i {
+    color: #e6e6e6;
+}
+button.c-button-unstyled.c-texty_input__button i {
+    color: #e6e6e6;
+}
+  
