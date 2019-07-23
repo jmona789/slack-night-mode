@@ -2123,3 +2123,6 @@ span.c-message__body {
 .c-message_list__day_divider {
     background: #363636;
 }
+.c-message--hover {
+      background: #363636;
+}
