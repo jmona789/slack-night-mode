@@ -2113,7 +2113,7 @@
   }
 
 
-  /*QUICK FIX FOR NEW SLACK, update more later:*/
+  /*QUICK FIX FOR NEW SLACK, update more later:
 .c-message {
     background: #363636;
 }
@@ -2126,3 +2126,4 @@ span.c-message__body {
 .c-message--hover, .c-message--focus-within:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message--hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message:hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight){
       background: #363636;
 }
+*/
