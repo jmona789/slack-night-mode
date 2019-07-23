@@ -2127,3 +2127,22 @@ span.c-message__body {
       background: #363636;
 }
 */
+
+.p-workspace__top_nav {
+  background: #363636;
+  color: #e6e6e6;
+}
+.p-classic_nav span, 
+.p-classic_nav i.c-icon.c-icon--star-o.c-icon--inherit.c-icon--inline,
+.p-classic_nav__model__title__info__presence,
+button.c-button-unstyled.p-classic_nav__model__button,
+{
+  color: #e6e6e6;
+}
+.p-classic_nav__no_drag {
+    border-color: #e6e6e6;
+    color: #e6e6e6;
+}
+.p-classic_nav__right__search__icon {
+    color: #e6e6e6;
+}
