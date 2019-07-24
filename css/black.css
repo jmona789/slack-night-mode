@@ -1,3 +1,4 @@
+  body { background: #222; color: #e6e6e6; }
   a { color: #949494; }
   a:link, a:visited { color: #949494; }
   a:hover, a:active, a:focus { color: #c7c7c7; }
@@ -2209,7 +2210,7 @@ span.c-message__body {
 .p-classic_nav span, 
 .p-classic_nav i.c-icon.c-icon--star-o.c-icon--inherit.c-icon--inline,
 .p-classic_nav__model__title__info__presence,
-button.c-button-unstyled.p-classic_nav__model__button,
+button.c-button-unstyled.p-classic_nav__model__button
 {
   color: #e6e6e6;
 }
