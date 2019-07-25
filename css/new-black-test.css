@@ -2199,3 +2199,125 @@ body { background: #222; color: #e6e6e6; }
   .para_menu .options a span { filter: grayscale(2) brightness(5); }
   .para_menu a.trigger.pilcrow { filter: grayscale(2) brightness(1.8); }
   .para_menu a.trigger.pilcrow:hover, .para_menu a.trigger.pilcrow.active { filter: grayscale(2) brightness(2); }
+/*personal edits: */
+  .c-file_container--has_thumb .c-file__actions:before {
+    background-image: linear-gradient(90deg,#000,#000 20px) !important;
+  }
+  .c-file__slide--meta {
+    background: #000 !important;
+  }
+  .c-file__icon--view:after {
+      filter: invert(100%) hue-rotate(180deg);
+  }
+  .p-downloads_list__shift_hint {
+      background: #222;
+  }
+  span.p-download_item__name.overflow_ellipsis {
+      color: #eee;
+  }
+  a.p-download_item__link--show {
+      background: #222;
+  }
+  .p-download_item__action_icon {
+      box-shadow: 0 0 0 3px #222 !important;
+  }
+  .c-icon--times-circle:before {
+      color: #fff;
+  }
+  #team_tab #member_preview_scroller .feature_custom_status_expiry.member_details .member_name {
+      color: #c1c1c1;
+  }
+  .ReactModal__Content.ReactModal__Content--after-open.c-dialog__content.p-file_upload_dialog, .ReactModal__Content.ReactModal__Content--after-open.c-dialog__content.p-file_upload_dialog div, .ReactModal__Content.ReactModal__Content--after-open.c-dialog__content.p-file_upload_dialog div h3 {
+      background-color: #222;
+      color: #e6e6e6;
+  }
+  .c-dialog__close:hover {
+      color: #e6e6e6;
+  }
+  .c-file_container--has_thumb .c-file__actions:before {
+      background-image: none;
+  }
+  .c-file__actions {
+      background: transparent;
+  }
+  /* threads */
+  span.c-message_kit__text, span.c-label__text, span.c-channel_name.p-threads_flexpane__header_channel_name {
+    color: #e6e6e6;
+  }
+  .c-pillow_file__content--collapsed:after {
+    background: linear-gradient(0deg,#000,hsla(0,0%,100%,0) 40px);
+  }
+  i.c-deprecated-icon.filetype_icon.gzip.s48.download_icon.download_filetype, i.c-deprecated-icon.filetype_icon.shell.s48.download_icon.download_filetype {
+    color: #e6e6e6;
+  }
+  /*Custom OBD Colored scroll bars */
+  .c-message_list .c-scrollbar__bar, .p-channel_sidebar .c-scrollbar__bar, .c-scrollbar__bar {
+    background: linear-gradient(#487509, #7bc80e) !important;
+  }
+  /*Custom OBD Colored reaction bubbles */
+  button.c-button-unstyled.c-reaction {
+    background: linear-gradient(to left, #325008, #8ade12) !important;
+  }
+  div#message_pane_edit_input {
+    background: #545454;
+  }
+  .ql-editor {
+    background-color: #545454;
+    color: #fff;
+  }
+  i.c-deprecated-icon.c-message__editor__emoji_smile_icon.c-icon--smile-o {
+    color: #e6e6e6;
+  }
+  span.p-download_item__actions {
+    background-color: #222222;
+  }
+  button.c-link--button.p-download_item__link--show:hover {
+    color: #eee;
+  }
+  i.c-icon.c-icon--times {
+    color: #e6e6e6;
+  }
+
+
+  /*QUICK FIX FOR NEW SLACK, update more later:
+.c-message {
+    background: #363636;
+}
+span.c-message__body {
+    color: #e6e6e6;
+}
+.c-message_list__day_divider {
+    background: #363636;
+}
+.c-message--hover, .c-message--focus-within:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message--hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message:hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight){
+      background: #363636;
+}
+*/
+
+.p-workspace__top_nav {
+  background: #363636;
+  color: #e6e6e6;
+}
+.p-classic_nav span, 
+.p-classic_nav i.c-icon.c-icon--star-o.c-icon--inherit.c-icon--inline,
+.p-classic_nav__model__title__info__presence,
+button.c-button-unstyled.p-classic_nav__model__button
+{
+  color: #e6e6e6;
+}
+.p-classic_nav__no_drag {
+    border-color: #e6e6e6;
+    color: #e6e6e6;
+}
+.p-classic_nav__right__search__icon {
+    color: #e6e6e6;
+}
+.p-workspace__input .p-message_input_field.focus, .p-workspace__input .p-message_input_field {
+     background: #545454;
+}
+button.c-button-unstyled.p-message_input_file_button i {
+    color: #e6e6e6;
+}
+button.c-button-unstyled.c-texty_input__button i {
+    color: #e6e6e6;
+}
