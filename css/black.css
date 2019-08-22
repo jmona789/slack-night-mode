@@ -2230,4 +2230,7 @@ button.c-button-unstyled.p-message_input_file_button i {
 button.c-button-unstyled.c-texty_input__button i {
     color: #e6e6e6;
 }
-  
+
+.c-message_kit__background.c-message_kit__message.c-message_kit__thread_message {
+   background: #545454;
+}
