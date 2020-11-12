@@ -2234,3 +2234,6 @@ button.c-button-unstyled.c-texty_input__button i {
 .c-message_kit__background.c-message_kit__message.c-message_kit__thread_message {
    background: #545454;
 }
+.p-message_input_field {
+      background: linear-gradient(to left, #325008, #538c01) !important;
+}
