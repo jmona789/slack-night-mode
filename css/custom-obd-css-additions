@@ -6,3 +6,7 @@
 button.c-button-unstyled.c-reaction {
 	background: linear-gradient(to left, #325008, #8ade12) !important;
 }
+/*Custom OBD selected chnanel bgcolor */
+.p-channel_sidebar__channel.p-channel_sidebar__channel--selected.p-channel_sidebar__channel--show_more_feature.p-channel_sidebar__channel--comfy {
+	background: linear-gradient(to left, #487509, #8ade12) !important;
+}
