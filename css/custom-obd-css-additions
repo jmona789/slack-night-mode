@@ -10,3 +10,8 @@ button.c-button-unstyled.c-reaction {
 .p-channel_sidebar__channel.p-channel_sidebar__channel--selected.p-channel_sidebar__channel--show_more_feature.p-channel_sidebar__channel--comfy {
 	background: linear-gradient(to left, #487509, #8ade12) !important;
 }
+code.c-mrkdwn__code, pre.c-mrkdwn__pre {
+    background: linear-gradient(to left, #487509, #8ade12) !important;
+    border-color: #898989;
+    color: black !important;
+}
