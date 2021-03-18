@@ -1,17 +1,17 @@
 /*Custom OBD Colored scroll bars */
 .c-message_list .c-scrollbar__bar, .p-channel_sidebar .c-scrollbar__bar, .c-scrollbar__bar {
-	background: linear-gradient(#325008, #8ade12) !important;
+	background: linear-gradient(#487509, #7ac80f) !important;
 }
 /*Custom OBD Colored reaction bubbles */
 button.c-button-unstyled.c-reaction {
-	background: linear-gradient(to left, #325008, #8ade12) !important;
+	background: linear-gradient(to left, #487509, #7ac80f) !important;
 }
 /*Custom OBD selected chnanel bgcolor */
 .p-channel_sidebar__channel.p-channel_sidebar__channel--selected.p-channel_sidebar__channel--show_more_feature.p-channel_sidebar__channel--comfy {
-	background: linear-gradient(to left, #487509, #8ade12) !important;
+	background: linear-gradient(to left, #487509, #7ac80f) !important;
 }
 code.c-mrkdwn__code, pre.c-mrkdwn__pre {
-    background: linear-gradient(to left, #487509, #8ade12) !important;
+    background: linear-gradient(to left, #487509, #7ac80f) !important;
     border-color: #898989;
     color: black !important;
 }
