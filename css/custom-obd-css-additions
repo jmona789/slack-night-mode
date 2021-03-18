@@ -18,6 +18,6 @@ code.c-mrkdwn__code, pre.c-mrkdwn__pre, code, .ql-code-block {
 .p-call_subtype__footer {
     background: linear-gradient(to left, #487509, #7ac80f) !important;
 }
-.p-call_subtype__footer * {
+.p-call_subtype__footer *:not(button) {
     color: black !important;
 }
