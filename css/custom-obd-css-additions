@@ -15,3 +15,9 @@ code.c-mrkdwn__code, pre.c-mrkdwn__pre {
     border-color: #898989;
     color: black !important;
 }
+.p-call_subtype__header, .p-call_subtype__footer {
+    background: linear-gradient(to left, #487509, #7ac80f) !important;
+}
+.p-call_subtype__header *, .p-call_subtype__footer * {
+    color: black !important;
+}
